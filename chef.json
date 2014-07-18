@@ -1,0 +1,13 @@
+{
+    "logstash": {
+        "instance": {
+            "server": {
+                "inputs": [
+                    {
+                        "syslog": {}
+                    }
+                ]
+            }
+        }
+    }
+}

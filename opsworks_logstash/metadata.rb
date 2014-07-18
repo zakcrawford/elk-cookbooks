@@ -1,0 +1,10 @@
+name             'opsworks_kibana'
+maintainer       'Adrien Brault'
+maintainer_email 'adrien.brault@gmail.com'
+license          'MIT'
+description      'Logstash OpsWorks'
+long_description 'Logstash OpsWorks'
+version          '0.1.0'
+
+depends 'opsworks_utils'
+depends 'logstash'
