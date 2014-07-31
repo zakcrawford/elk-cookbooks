@@ -1,5 +1,10 @@
 source 'https://api.berkshelf.com'
 
-cookbook 'elasticsearch', '~> 0.3.10', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git'
-cookbook 'logstash', '~> 0.9.2', git: 'git://github.com/lusis/chef-logstash.git'
-cookbook 'kibana', '~> 1.3.0', git: 'git://github.com/lusis/chef-kibana.git'
+cookbook 'opsworks_elasticsearch', path: 'opsworks_elasticsearch'
+cookbook 'opsworks_kibana', path: 'opsworks_kibana'
+cookbook 'opsworks_logstash', path: 'opsworks_logstash'
+cookbook 'opsworks_utils', path: 'opsworks_utils'
+
+cookbook 'elasticsearch', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git'
+cookbook 'logstash', git: 'git://github.com/lusis/chef-logstash.git'
+cookbook 'kibana', git: 'git://github.com/lusis/chef-kibana.git'

@@ -4,10 +4,18 @@ DEPENDENCIES
     revision: c112a02e50f40dfd93bbe9326e2e695e4a06e59a
   kibana
     git: git://github.com/lusis/chef-kibana.git
-    revision: 89e6255e7a6c01238d349ca910c58f42af7628c8
+    revision: 38157056cb9e327503ef1895c986400fafff7b36
   logstash
     git: git://github.com/lusis/chef-logstash.git
-    revision: f88de1366fe3ff33c4e9be00a370444dd5749b06
+    revision: 0facb1dae7b96b1d6c9740ce0e1e79c099bca64f
+  opsworks_elasticsearch
+    path: opsworks_elasticsearch
+  opsworks_kibana
+    path: opsworks_kibana
+  opsworks_logstash
+    path: opsworks_logstash
+  opsworks_utils
+    path: opsworks_utils
 
 GRAPH
   7-zip (1.0.2)
@@ -15,7 +23,8 @@ GRAPH
   ant (1.0.2)
     ark (>= 0.0.0)
     java (>= 0.0.0)
-  apache2 (1.10.4)
+  apache2 (1.11.0)
+    freebsd (>= 0.0.0)
     iptables (>= 0.0.0)
     logrotate (>= 0.0.0)
     pacman (>= 0.0.0)
@@ -35,6 +44,7 @@ GRAPH
     java (>= 0.0.0)
     monit (>= 0.0.0)
     xml (>= 0.0.0)
+  freebsd (0.1.4)
   git (4.0.2)
     build-essential (>= 0.0.0)
     dmg (>= 0.0.0)
@@ -43,7 +53,7 @@ GRAPH
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
   iptables (0.13.2)
-  java (1.22.0)
+  java (1.24.0)
   kibana (1.3.0)
     apache2 (>= 0.0.0)
     ark (>= 0.0.0)
@@ -73,6 +83,17 @@ GRAPH
     runit (~> 1.2)
     yum-epel (~> 0.3)
   ohai (2.0.1)
+  opsworks_elasticsearch (0.1.0)
+    elasticsearch (>= 0.0.0)
+    java (>= 0.0.0)
+  opsworks_kibana (0.1.0)
+    kibana (>= 0.0.0)
+    ohai (>= 0.0.0)
+    opsworks_utils (>= 0.0.0)
+  opsworks_logstash (0.1.0)
+    logstash (>= 0.0.0)
+    opsworks_utils (>= 0.0.0)
+  opsworks_utils (0.1.0)
   pacman (1.1.1)
   python (1.4.6)
     build-essential (>= 0.0.0)
@@ -82,11 +103,11 @@ GRAPH
     build-essential (>= 0.0.0)
     yum (~> 3.0)
     yum-epel (>= 0.0.0)
-  windows (1.32.3)
+  windows (1.33.1)
     chef_handler (>= 0.0.0)
   xml (1.2.6)
     build-essential (>= 0.0.0)
     chef-sugar (>= 0.0.0)
   yum (3.2.2)
-  yum-epel (0.3.6)
+  yum-epel (0.4.0)
     yum (~> 3.0)

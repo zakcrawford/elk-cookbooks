@@ -1,4 +1,4 @@
-name             'opsworks_kibana'
+name             'opsworks_logstash'
 maintainer       'Adrien Brault'
 maintainer_email 'adrien.brault@gmail.com'
 license          'MIT'
