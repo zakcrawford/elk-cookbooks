@@ -15,7 +15,8 @@ DEPENDENCIES
   opsworks_logstash
     path: opsworks_logstash
   opsworks_utils
-    path: opsworks_utils
+    git: git://github.com/hautelook/chef-opsworks-utils.git
+    revision: e7bc204e3d3b1d05445474b80b06358a9c564f87
 
 GRAPH
   7-zip (1.0.2)

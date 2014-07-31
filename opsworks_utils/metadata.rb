@@ -1,7 +1,0 @@
-name             'opsworks_utils'
-maintainer       'Adrien Brault'
-maintainer_email 'adrien.brault@gmail.com'
-license          'MIT'
-description      'OpsWorks Utils'
-long_description 'OpsWorks Utils'
-version          '0.1.1'
