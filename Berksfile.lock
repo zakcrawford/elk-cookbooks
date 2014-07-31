@@ -14,7 +14,8 @@ DEPENDENCIES
   opsworks_kibana
     path: opsworks_kibana
   opsworks_logstash
-    path: opsworks_logstash
+    git: git://github.com/hautelook/chef-opsworks-logstash.git
+    revision: 813414d8e95a11fa8f9da3fb77c7a01d814c576b
   opsworks_utils
     git: git://github.com/hautelook/chef-opsworks-utils.git
     revision: e7bc204e3d3b1d05445474b80b06358a9c564f87
