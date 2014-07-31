@@ -12,7 +12,8 @@ DEPENDENCIES
     git: git://github.com/hautelook/chef-opsworks-elasticsearch.git
     revision: e7aa316b35747ee3d7dd65ff0b40f666ca241094
   opsworks_kibana
-    path: opsworks_kibana
+    git: git://github.com/hautelook/chef-opsworks-kibana.git
+    revision: 30f027899430e3b69755b33cf10112a1d891b8ef
   opsworks_logstash
     git: git://github.com/hautelook/chef-opsworks-logstash.git
     revision: 813414d8e95a11fa8f9da3fb77c7a01d814c576b
