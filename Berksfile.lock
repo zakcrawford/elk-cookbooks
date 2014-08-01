@@ -16,7 +16,7 @@ DEPENDENCIES
     revision: 30f027899430e3b69755b33cf10112a1d891b8ef
   opsworks_logstash
     git: git://github.com/hautelook/chef-opsworks-logstash.git
-    revision: 813414d8e95a11fa8f9da3fb77c7a01d814c576b
+    revision: f2e3f93448120ed9f51b1ed9e287a5d76826c544
   opsworks_utils
     git: git://github.com/hautelook/chef-opsworks-utils.git
     revision: e7bc204e3d3b1d05445474b80b06358a9c564f87
@@ -94,7 +94,7 @@ GRAPH
     kibana (>= 0.0.0)
     ohai (>= 0.0.0)
     opsworks_utils (>= 0.0.0)
-  opsworks_logstash (0.1.0)
+  opsworks_logstash (0.1.1)
     logstash (>= 0.0.0)
     opsworks_utils (>= 0.0.0)
   opsworks_utils (0.1.0)
