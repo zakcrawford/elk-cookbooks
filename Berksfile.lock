@@ -13,7 +13,7 @@ DEPENDENCIES
     revision: bcb55b3280033cd5270f76180aefdcc4761fcb1f
   opsworks_kibana
     git: git://github.com/zakcrawford/chef-opsworks-kibana.git
-    revision: 09989aaafd5aa0aec335162c2f5859433e661fa5
+    revision: 4d7ff3346a29a67be4940109ede9e27616e19499
   opsworks_logstash
     git: git://github.com/hautelook/chef-opsworks-logstash.git
     revision: 55df077489d79aaead0a93677611b6a31d62e88e
@@ -90,7 +90,7 @@ GRAPH
   opsworks_elasticsearch (0.2.0)
     elasticsearch (>= 0.0.0)
     java (>= 0.0.0)
-  opsworks_kibana (0.2.0)
+  opsworks_kibana (0.2.1)
     kibana (>= 0.0.0)
     ohai (>= 0.0.0)
     opsworks_utils (>= 0.0.0)
