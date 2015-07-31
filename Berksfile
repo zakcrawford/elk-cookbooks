@@ -7,4 +7,4 @@ cookbook 'opsworks_utils', git: 'git://github.com/hautelook/chef-opsworks-utils.
 
 cookbook 'elasticsearch', git: 'git://github.com/elasticsearch/cookbook-elasticsearch.git'
 cookbook 'logstash', git: 'git://github.com/lusis/chef-logstash.git'
-cookbook 'kibana', git: 'git://github.com/lusis/chef-kibana.git'
+cookbook 'kibana_lwrp', git: 'git://github.com/lusis/chef-kibana.git'
