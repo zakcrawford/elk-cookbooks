@@ -267,7 +267,7 @@
                 },
                 "EnableAutoHealing": "true",
                 "AutoAssignElasticIps": "false",
-                "AutoAssignPublicIps": "false",
+                "AutoAssignPublicIps": "true",
                 "VolumeConfigurations": [
                     {
                         "MountPoint": "/usr/local/var/data/elasticsearch",
@@ -312,7 +312,7 @@
                 },
                 "EnableAutoHealing": "true",
                 "AutoAssignElasticIps": "false",
-                "AutoAssignPublicIps": "false",
+                "AutoAssignPublicIps": "true",
                 "CustomSecurityGroupIds": [
                     {
                         "Fn::GetAtt": [
@@ -339,7 +339,7 @@
                 },
                 "EnableAutoHealing": "true",
                 "AutoAssignElasticIps": "false",
-                "AutoAssignPublicIps": "false",
+                "AutoAssignPublicIps": "true",
                 "CustomSecurityGroupIds": [
                     {
                         "Fn::GetAtt": [
